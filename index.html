@@ -6,7 +6,7 @@
  */
 
 // Name of the message buffer file. You have to create it manually with read and write permissions for the webserver.
-$messages_buffer_file = 'messages.json';
+$messages_buffer_file = 'https://dzapps.github.io/chat/messages.json';
 // Number of most recent messages kept in the buffer
 $messages_buffer_size = 10;
 
@@ -45,7 +45,7 @@ if ( isset($_POST['content']) and isset($_POST['name']) )
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<title>Simple Chat</title>
-	<script type="text/javascript" src="jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="https://dzapps.github.io/chat/jquery-1.4.2.min.js"></script>
 	<script type="text/javascript">
 		// <![CDATA[
 		$(document).ready(function(){
