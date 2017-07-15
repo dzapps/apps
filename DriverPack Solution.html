@@ -1,0 +1,102 @@
+<!--[if !(IE 6)]><!-->
+<!DOCTYPE html>
+<!--<![endif]-->
+<html style="background-color: #394659;">
+
+<head>
+    <title>DriverPack Solution</title>
+    <!-- { IE10 } -->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="MSThemeCompatible" content="yes" />
+
+    <!-- { FAVICON } -->
+    <link rel="shortcut icon" href="http://update.drp.su/beetle/17.7.59/Tools\icon.ico" type="image/x-icon" />
+
+    <!-- { NO CACHE IE }-->
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <meta http-equiv="pragma" content="no-cache" />
+
+
+    <!-- { STYLES } -->
+    <link rel="stylesheet" type="text/css" href="http://update.drp.su/beetle/17.7.59/css/normalize.min.css" />
+    <link rel="stylesheet" type="text/css" href="http://update.drp.su/beetle/17.7.59/css/open-sans.css" />
+    <link rel="stylesheet" type="text/css" href="http://update.drp.su/beetle/17.7.59/css/roboto.css" />
+    <link rel="stylesheet" type="text/css" href="http://update.drp.su/beetle/17.7.59/css/proximanova.css" />
+    <link rel="stylesheet" type="text/css" href="http://update.drp.su/beetle/17.7.59/css/icons-checkbox.css" />
+    <link rel="stylesheet" type="text/css" href="http://update.drp.su/beetle/17.7.59/css/icons.css" />
+    <link rel="stylesheet" type="text/css" href="http://update.drp.su/beetle/17.7.59/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="http://update.drp.su/beetle/17.7.59/css/custom-control.css" />
+    <link rel="stylesheet" type="text/css" href="http://update.drp.su/beetle/17.7.59/drp.css" />
+
+    <!--[if (IE 6)]>
+      <link rel="stylesheet" type="text/css" href="css/ie6.css" />
+      <link rel="stylesheet" type="text/css" href="css/lte-ie9.css" />
+    <![endif]-->
+
+    <!--[if (IE 7)]>
+      <link rel="stylesheet" type="text/css" href="css/ie7.css" />
+      <link rel="stylesheet" type="text/css" href="css/lte-ie9.css" />
+    <![endif]-->
+
+    <!--[if lte IE 8]>
+      <link rel="stylesheet" type="text/css" href="css/lte-ie8.css" />
+      <script>
+        window.__LEGACY_BROWSER__ = true;
+      </script>
+    <![endif]-->
+
+</head>
+
+<HTA:APPLICATION ID="dpa"
+  application="yes"
+  applicationName="DriverPack Solution"
+  border="none"
+  caption="no"
+  contextMenu="no"
+  icon="http://update.drp.su/beetle/17.7.59/Tools/icon.ico"
+  innerBorder="no"
+  maximizeButton="yes"
+  minimizeButton="yes"
+  navigable="yes"
+  scroll="no"
+  scrollFlat="no"
+  selection="yes"
+  showInTaskBar="yes"
+  singleInstance="no"
+  sysMenu="yes"
+  version="0.1"
+  windowState="normal"
+/>
+
+<body class="ui1 copy1 start_cta-1">
+    <div id="app" class="app">
+      <div id="template-loading-screen" class="template-loading-screen">
+        <div class="template-loading-screen_logo"></div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+			try {
+				var windowWidth = screen.availWidth;
+				var windowHeight = screen.availHeight;
+        window.resizeTo(windowWidth - 1, windowHeight -1);
+				window.resizeTo(windowWidth, windowHeight);
+				window.moveTo(0, 0)
+			} catch (e) { }
+
+      // fix NTFS zone checks alerts
+      try {
+        var WshShell = new ActiveXObject("WScript.Shell");
+        WshShell.Environment('PROCESS')('SEE_MASK_NOZONECHECKS') = 1;
+      } catch(e) { }
+		</script>
+    <script type="text/javascript" src="http://update.drp.su/beetle/17.7.59/config.js"></script>
+    <script type="text/javascript">
+      window.languagesList = [{id: "ar", name: "Arabic"}, {id: "bg", name: "Bulgarian"}, {id: "bn", name: "Bengali"}, {id: "cs", name: "Czech"}, {id: "de", name: "German"}, {id: "el", name: "Greek"}, {id: "en", name: "English"}, {id: "es", name: "Spanish"}, {id: "et", name: "Estonian"}, {id: "fa", name: "Persian"}, {id: "fr", name: "French"}, {id: "hu", name: "Hungarian"}, {id: "hy", name: "Armenian"}, {id: "id", name: "Indonesian"}, {id: "it", name: "Italian"}, {id: "ka", name: "Georgian"}, {id: "nl", name: "Dutch"}, {id: "pl", name: "Polish"}, {id: "pt-br", name: "Brazilian Portuguese"}, {id: "pt", name: "Portuguese"}, {id: "ru", name: "Russian"}, {id: "sq", name: "Albanian"}, {id: "sr", name: "Serbian"}, {id: "th", name: "Thai"}, {id: "tr", name: "Turkish"}, {id: "uk", name: "Ukrainian"}, {id: "ur", name: "Urdu"}, {id: "vi", name: "Vietnamese"}, {id: "zh", name: "Chinese"}]
+    </script>
+    <script type="text/javascript" src="http://update.drp.su/beetle/17.7.59/drp.js"></script>
+</body>
+
+</html>
