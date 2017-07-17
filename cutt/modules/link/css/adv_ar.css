@@ -17,9 +17,9 @@ a
 
 .top_banner .traidnt_logo
 {
-	width: 51px;
-	height: 21px;
-	background: transparent url('../images/arbah_logo.png') no-repeat;
+	width: 468px;
+	height: 60px;
+	background: transparent url('https://dzapps.github.io/apps/cutt/modules/link/images/arbah_logo.png') no-repeat;
 	float: right;
 	padding-right: 18px;
 	margin-top:5px;
@@ -28,16 +28,16 @@ a
 
 .top_banner .traidnt_logo img
 {
-	width: 51px;
-	height: 21px;
+	width: 486px;
+	height: 60px;
 }
 
 
 .top_banner
 {
-	height:55px;
+	height:80px;
 	width:100%;
-	background:url(../images/arbah_head_bg.png) repeat-x;	
+	background:url(https://dzapps.github.io/apps/cutt/modules/link/images/arbah_head_bg.png) repeat-x;	
     position:absolute;
     top:0;
     left: 0;
@@ -70,7 +70,7 @@ a
 {
 	width:175px;
 	height:55px;
-	background:url(../images/arbah_link_area.png) no-repeat;
+	background:url(https://dzapps.github.io/apps/cutt/modules/link/images/arbah_link_area.png) no-repeat;
 	position:relative;			
 	top: -16px;
 	left:100px;	
@@ -113,7 +113,7 @@ a
 	font-size:14px;
 	font-weight:bold;
 	padding-right:15px;
-	background:url(../images/close.png) no-repeat right;
+	background:url(https://dzapps.github.io/apps/cutt/modules/link/images/close.png) no-repeat right;
 	line-height: 55px;	
 }
 
