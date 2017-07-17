@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>preview: الرجاء الانتظار قليلا..يتم تحميل الصفحة ..........</title>
+<link href="https://dzapps.github.io/apps/cutt/modules/link/css/reset.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="https://dzapps.github.io/apps/cutt/modules/link/css/adv_ar.css" media="screen" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="https://dzapps.github.io/apps/cutt/modules/link/js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="https://dzapps.github.io/apps/cutt/modules/link/js/count.js"></script>
+<script type="text/javascript">
+var real_link = 'http://kitaaby.xoo.it/t56-2016.htm';
+var skip_ad   = 'تخطي الإعلان';
+
+$(document).ready(function()
+{
+	$('.skipads').countDown({
+	  startNumber: 10,
+	  callBack: function(me)
+	  {
+		$('.skipads').html('<a href="'+ real_link +'" class="skip_link">'+ skip_ad +'</a>');
+	  }
+	});
+
+	var isInIFrame = (window.location != window.parent.location) ? true : false;
+	if(isInIFrame)
+	{
+		window.parent.location.href = window.location;
+		var domain_name = window.parent.location;
+		$('.skipads').load('https://dzapps.github.io/apps/cutt/1.html?domain='+domain_name+'&minipage=1', function()
+		{
+		});
+	}
+
+
+});
+
+</script>
+
+</head>
+
+<body>
+
+
+<div class="top_banner">
+	<div class="traidnt_logo">
+		<a href="https://dzapps.github.io/apps/photoshop%20online.html" target="_blank">
+			<img alt="اعلن هنا 100 دج للشهر" src="https://dzapps.github.io/apps/cutt/modules/link/images/ads468×60-1.gif">
+		</a>
+	</div>
+	<div class="arbah_desc">
+		<a href=" " target="_blank">cutt : url shortner</a>
+	</div>
+	<div class="add_your_site"><a href="https://dzapps.github.io/apps/photoshop%20online.html" target="_blank">هل تريد لموقعك الظهور هنا ؟</a></div>
+	<div class="link_area">
+		<span class="skipads"></span>
+	</div>
+</div>
+
+<iframe src="https://dzapps.github.io/apps/cutt/ads.html" scrolling="auto" allowtransparency="true" style="width:100%display:block;visibility:visible;overflow: scroll;"></iframe>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-29202658-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+
+ 
+
+</body>
+</html>
+
+

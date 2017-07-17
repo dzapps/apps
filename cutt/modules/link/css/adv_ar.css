@@ -1,0 +1,131 @@
+html
+{
+	height:100%
+}
+
+body
+{
+    height:100%;
+    min-width:980px;
+    overflow:hidden;     
+}
+
+a
+{
+	text-decoration:none;
+}
+
+.top_banner .traidnt_logo
+{
+	width: 51px;
+	height: 21px;
+	background: transparent url('../images/arbah_logo.png') no-repeat;
+	float: right;
+	padding-right: 18px;
+	margin-top:5px;
+	float:right;
+}
+
+.top_banner .traidnt_logo img
+{
+	width: 51px;
+	height: 21px;
+}
+
+
+.top_banner
+{
+	height:55px;
+	width:100%;
+	background:url(../images/arbah_head_bg.png) repeat-x;	
+    position:absolute;
+    top:0;
+    left: 0;
+ 	z-index:999;
+	display:block; 	
+	-webkit-box-shadow: 0px 10px 8px 0px rgba(34, 34, 34, 0.3);
+	-moz-box-shadow: 0px 10px 8px 0px rgba(34, 34, 34, 0.3);
+	box-shadow: 0px 10px 8px 0px rgba(34, 34, 34, 0.3);	
+}
+
+.top_banner .arbah_desc
+{	
+	position: relative;
+	top: 33px;
+	direction: rtl;
+	right: -46px;		
+}
+
+.top_banner .arbah_desc a
+{
+	color:#fff;
+	font-size:12px;
+	font-weight:bold;
+	font-family:Tahoma, Arial;	
+	line-height: 16px;
+}
+
+
+.top_banner .link_area
+{
+	width:175px;
+	height:55px;
+	background:url(../images/arbah_link_area.png) no-repeat;
+	position:relative;			
+	top: -16px;
+	left:100px;	
+}
+
+.top_banner .link_area .skipads
+{
+	color:#7dd8c4;
+	display:block;
+	font-family:Tahoma;	
+	font-size:12px;
+	font-weight:bold;
+	line-height:50px;
+	text-align:center;
+	text-shadow:2px 0px 0px #000000;
+}
+
+
+.top_banner .add_your_site
+{
+	display: block;
+	float: left;
+	margin-left: 299px;
+	line-height: 0.6px;	
+}
+
+.top_banner .add_your_site a
+{
+	font-weight:bold;
+	color:#ffd34b;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;			
+} 
+
+
+.top_banner .link_area .skipads a
+{
+	text-shadow:2px 0px 0px #000000;
+	color:#7dd8c4;
+	font-size:14px;
+	font-weight:bold;
+	padding-right:15px;
+	background:url(../images/close.png) no-repeat right;
+	line-height: 55px;	
+}
+
+iframe
+{
+	margin-top:55px;	
+	height:100%;
+	width:100%;
+	border:0px;
+	overflow:hidden;
+}
+
+
+
+
