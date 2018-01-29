@@ -537,6 +537,203 @@ min-width: 0;
 width: auto;
 }
 --></style>
+	
+	
+	
+	
+	
+	
+	
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'>
+
+      <style>
+      /* colors -> https://coolors.co/e54b4b-ebebd3-464655-e4b363-e8e9eb */
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+
+body {
+  background: #F0F8EA;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.container {
+  width: 95%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+header {
+  background: #E54B4B;
+  color: #EBEBD3;
+  padding: 1em 0;
+  position: relative;
+}
+
+header::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+.logo {
+  float: left;
+  font-size: 1rem;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.logo span {
+  font-weight: 400;
+}
+
+.site-nav {
+  position: absolute;
+  top: 100%;
+  right: 0%;
+  background: #464655;
+  -webkit-clip-path: circle(0px at top right);
+          clip-path: circle(0px at top right);
+  -webkit-transition: -webkit-clip-path ease-in-out 700ms;
+  transition: -webkit-clip-path ease-in-out 700ms;
+  transition: clip-path ease-in-out 700ms;
+  transition: clip-path ease-in-out 700ms, -webkit-clip-path ease-in-out 700ms;
+/*   display: none; */
+}
+
+.site-nav--open {
+  -webkit-clip-path: circle(250% at top right);
+          clip-path: circle(250% at top right);
+/*   display: block; */
+}
+
+.site-nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.site-nav li {
+  border-bottom: 1px solid #575766;
+}
+
+.site-nav li:last-child {
+  border-bottom: none;
+}
+
+.site-nav a {
+  color: #EBEBD3;
+  display: block;
+  padding: 2em 4em 2em 1.5em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+  background: #E4B363;
+  color: #464655;
+}
+
+.site-nav--icon {
+  display: inline-block;
+  font-size: 1.5em;
+  margin-right: 1em;
+  width: 1.1em;
+  text-align: right;
+  color: rgba(255,255,255,.4);
+}
+
+.menu-toggle {
+  padding: 1em;
+  position: absolute;
+  top: .5em;
+  right: .5em;
+  cursor: pointer;
+}
+
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+  content: '';
+  display: block;
+  background: #EBEBD3;
+  height: 3px;
+  width: 1.75em;
+  border-radius: 3px;
+  -webkit-transition: all ease-in-out 500ms;
+  transition: all ease-in-out 500ms;
+}
+
+.hamburger::before {
+  -webkit-transform: translateY(-6px);
+          transform: translateY(-6px);
+}
+
+.hamburger::after {
+  -webkit-transform: translateY(3px);
+          transform: translateY(3px);
+}
+
+.open .hamburger {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.open .hamburger::before {
+  opacity: 0;
+}
+
+.open .hamburger::after {
+  -webkit-transform: translateY(-3px) rotate(-90deg);
+          transform: translateY(-3px) rotate(-90deg);
+}
+
+@media (min-width: 700px) {
+  
+  .menu-toggle {
+    display: none;
+  }
+  
+  .site-nav {
+    height: auto;
+    position: relative;
+    background: transparent;
+    float: right;
+    -webkit-clip-path: initial;
+            clip-path: initial;
+  }
+  
+  .site-nav li {
+    display: inline-block;
+    border: none;
+  }
+  
+  .site-nav a {
+    padding: 0;
+    margin-left: 3em;
+  }
+  
+  .site-nav a:hover,
+  .site-nav a:focus {
+    background: transparent;
+  }
+  
+  .site-nav--icon {
+    display: none;
+  }
+  
+}
+    </style>
+
+	
+	
+	
+	
+	
+	
 <script type="text/javascript">var a="indexOf",b="&m=1",e="(^|&)m=",f="?",g="?m=1";function h(){var c=window.location.href,d=c.split(f);switch(d.length){case 1:return c+g;case 2:return 0<=d[1].search(e)?null:c+b;default:return null}}var k=navigator.userAgent;if(-1!=k[a]("Mobile")&&-1!=k[a]("WebKit")&&-1==k[a]("iPad")||-1!=k[a]("Opera Mini")||-1!=k[a]("IEMobile")){var l=h();l&&window.location.replace(l)};
 </script><script type="text/javascript">
 if (window.jstiming) window.jstiming.load.tick('headEnd');
@@ -598,6 +795,43 @@ if (window.jstiming) window.jstiming.load.tick('headEnd');
 <div class='region-inner header-inner'>
 <div class='header section' id='header'><div class='widget Header' id='Header1'>
 <div id='header-inner'>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+<div class="container">
+
+  <h1 class="logo">Generico<span>Logo</span></h1>
+  
+  <nav class="site-nav">
+      <ul>
+        <li><a href=""><i class="fa fa-home site-nav--icon"></i>Home</a></li> 
+        <li><a href=""><i class="fa fa-info site-nav--icon"></i>About</a></li>
+        <li><a href=""><i class="fa fa-pencil site-nav--icon"></i>Blog</a></li>
+        <li><a href=""><i class="fa fa-usd site-nav--icon"></i>Pricing</a></li>
+        <li><a href=""><i class="fa fa-envelope site-nav--icon"></i>Contact</a></li>
+      </ul> 
+  </nav>
+  
+  <div class="menu-toggle">
+    <div class="hamburger"></div>
+  </div>
+  
+</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
 <div class='titlewrapper'>
 <h1 class='title'>
 <a href=''>Photoshop Online</a>
@@ -1040,7 +1274,7 @@ border-radius: 3px;
 <a target="_blank" href="https://dzapps.github.io/apps/photoshop%20online.html" target="_blank" title="حرر صورك اونلاين باحترافية" rel="nofollow">فوتوشوب اونلاين</a>
 </td></tr>
 <td width="25%" align="center">
-<a target="_blank" href="https://dzapps.github.io/demo-download/rasilna.html " target="_blank" title="تبادل اعلاني نصي " rel="nofollow"> exarab</a>
+<a target="_blank" href="http://192.168.43.55/" target="_blank" title="مجموعة مواقع قد تهمك " rel="nofollow"> مواقعي</a>
 </td>
 <td width="25%" align="center">
 <a target="_blank" href="https://dzapps.github.io/demo-download/rasilna.html" target="_blank" title="تبادل اعلاني نصي" rel="nofollow">إعلانك هنا</a>
@@ -1180,7 +1414,19 @@ if(screenWidth>1200){
 
   
   
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+
   
+
+    <script >
+      $('.menu-toggle').click(function() {
+  
+  $('.site-nav').toggleClass('site-nav--open', 500);
+  $(this).toggleClass('open');
+  
+})
+    </script>
 
 </body>
 </html>
